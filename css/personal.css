@@ -1,0 +1,51 @@
+.input::placeholder{
+  color:#209cee;
+  
+}
+
+.textarea::placeholder{
+  color:#209cee;
+}
+
+.has-same-height .card {
+  height: 380px;
+  overflow: hidden;
+}
+
+.skills-content .media {
+  margin: 0 !important;
+  padding: 1px !important;
+  border: 0 !important;
+}
+
+.skills-content .progress {
+  height: 4px !important;
+}
+
+.custom-tags {
+  text-align: center !important;
+  display: block;
+}
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.is-shady {
+animation: flyintoright .4s backwards;
+background: rgba(216, 232, 242);
+box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+border-radius: 4px;
+display: inline-block;
+margin: 10px;
+position: relative;
+transition: all .2s ease-in-out;
+}
+.is-shady:hover {
+box-shadow: 0 10px 16px rgba(255, 255, 255, .13), 0 6px 6px rgba(255, 255, 255, .99);
+}
